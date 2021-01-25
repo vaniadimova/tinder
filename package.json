@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "tinder",
   "version": "0.1.0",
   "private": true,
@@ -38,5 +39,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "tinder-backend",
+  "version": "1.0.0",
+  "description": "tinder clone app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Vania Dimova",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
+>>>>>>> 9307721b920bf13d584fcddd1dcd785bbe440702
   }
 }
